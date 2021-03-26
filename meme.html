@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="meme.css">
+    <script src="meme.js"></script>
+</head>
+<body>
+    
+    <form>
+        <p>
+         choose a picture <input type="file" id="user_picture" onchange="update_image()"> 
+        </p>
+        <p>
+        Meme text: <input type="text" id="user_text" oninput="update_text()" maxlength="70">
+        </p>
+        </form>
+        <p>
+        
+        <div id="meme_text">&nbsp;</div>
+        <h1>ANIMAL ZOO</h1>
+        <div id="meme_picture"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxrJL_VQH6laS3LJzrfuEUzDuuWK9HPhEj0w&usqp=CAU" height="500" width="600"></div>
+        
+                </p>
+    
+</body>
+</html>
